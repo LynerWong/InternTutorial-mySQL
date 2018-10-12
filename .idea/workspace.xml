@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bfc4579a-ff73-4c33-8f98-e8a81796cf30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/SimpleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/respository/SimpleRespository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/SimpleService.java" afterDir="false" />
+    <list default="true" id="bfc4579a-ff73-4c33-8f98-e8a81796cf30" name="Default Changelist" comment="Update file">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tutorial1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -107,13 +102,9 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -137,7 +128,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/service/SimpleService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -226,7 +217,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="add_unversioned_files" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539315094621" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539315282097" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../tutorial1" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -274,7 +265,21 @@
       <option name="project" value="LOCAL" />
       <updated>1539250176867</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update file">
+      <created>1539315109940</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1539315109940</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update file">
+      <created>1539315149665</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1539315149666</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -288,24 +293,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.22266561" />
-      <window_info id="Structure" order="1" sideWeight="0.50121653" side_tool="true" weight="0.25379092" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49635038" visible="true" weight="0.22266561" />
+      <window_info id="Structure" order="1" sideWeight="0.50364965" side_tool="true" weight="0.22266561" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.50121653" side_tool="true" weight="0.25379092" />
+      <window_info active="true" anchor="bottom" id="Messages" sideWeight="0.49960095" visible="true" weight="0.32952693" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.27406198" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.27406198" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.22185971" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50039905" side_tool="true" weight="0.32952693" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -353,13 +358,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/respository/SimpleRespository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -393,6 +391,9 @@
           <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
