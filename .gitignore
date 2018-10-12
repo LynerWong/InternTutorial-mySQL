@@ -9,5 +9,6 @@ out
 gen
 /src/test/
 .gitignore
-src/main/resources/
 src/test/
+
+
