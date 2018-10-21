@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <style>
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+</style>
+    <title>Person Result</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<div th:if="${not #lists.isEmpty(persons)}">
+    <h2>All Person Data</h2>
+    <table class="glyphicon glyphicon-calendar">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Date</th>
+            <th>Description</th>
+            <th>Gender</th>
+        </tr>
+        <tr th:each="person : ${persons}">
+            <td th:text="${person.id}"></td>
+            <td th:text="${person.name}"></td>
+            <td th:text="${person.Age}"></td>
+            <td th:text="${person.maritial}"></td>
+            <td th:text="${person.birth}"></td>
+            <td th:text="${person.description}"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="Back" onclick="history.back()"></td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
